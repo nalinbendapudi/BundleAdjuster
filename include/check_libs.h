@@ -1,5 +1,4 @@
-#ifndef CHECK_LIBS_H
-#define CHECK_LIBS_H
+#pragma once
 
 #include <Eigen/Dense>
 #include <opencv2/opencv.hpp>
@@ -15,4 +14,3 @@ public:
     void testPCL();
 };
 
-#endif // CHECK_LIBS_H
