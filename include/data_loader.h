@@ -11,6 +11,6 @@ public:
     DataLoader(const std::string& file_path);
     bool loadData(std::vector<Camera>& cameras, std::vector<Point3D>& points3d, std::vector<Observation>& observations);
 
-    private:
+private:
     std::string file_path_;
 };
