@@ -62,3 +62,18 @@ This repository contains a C++ Bundle Adjustment implementation using the Ceres 
 ./build/ba_main
 ```
 ---
+
+
+## Data
+
+Data is downloaded from https://grail.cs.washington.edu/projects/bal/ and stored in the `data/` folder
+
+---
+
+## Visualizations
+
+Visualizations are done using a python jupyter-notebook in `notebooks/visualize_data.ipynb`  
+The notebook should be run outside the docker and coomon libraries (plotly, open3d, numpy) should be installed  
+We visualize input an ouput 3D points and camera trajectories
+
+
