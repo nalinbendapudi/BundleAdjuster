@@ -16,7 +16,7 @@ bool DataWriter::writeData(const std::vector<Camera>& cameras,
     }
 
     // Write the number of observations, cameras, and points
-    file << observations.size() << " " << cameras.size() << " " << points3d.size() << "\n";
+    file << cameras.size() << " " << points3d.size() << " " << observations.size() << "\n";
 
     // Write observations
     for (const auto& observation : observations) {
